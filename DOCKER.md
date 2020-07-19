@@ -46,7 +46,3 @@ docker exec -i dwpa_db_1 mysql -uwpa -pwpapass wpa -v < dict.sql
 # nginx proxypass config
 
 See `dwpa/nginx/dwpa.conf` for config examples
-
-# Issues
-
-`rkg.php` crontab failing causing `help_crack.py` to not start cracking. See [#59](https://github.com/RealEnder/dwpa/issues/59)
